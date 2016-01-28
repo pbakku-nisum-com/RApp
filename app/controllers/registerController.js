@@ -27,7 +27,7 @@ app.controller("registerController", function($scope, registerService, getDataSe
     $scope.setInterestLang = function(selectedLang) {
         $scope.selelangs = [];
         for (var i = 0; i < selectedLang.length; i++) {
-            $scope.selelangs.push(selectedLang[i].id);
+            $scope.selelangs.push(selectedLang[i].name.toLowerCase());
         }
     }
 
