@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'ui-grid';
+    src: url('../fonts/ui-grid.eot') format('embedded-opentype'), 
+	    url('../fonts/ui-grid.woff') format('woff'), 
+	    url('../fonts/ui-grid.ttf') format('truetype'), 
+	    url('../fonts/ui-grid.svg') format('svg');
+}
+
+body {
+    font-family: ui-grid;
+}
+
+.app_header {
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #C2F2E0;
+    text-align: center;
+}
